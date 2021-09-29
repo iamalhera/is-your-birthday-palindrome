@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    font-family: "montserrat",sans-serif;
+    margin: 0;
+    padding: 0;
+    --primary-color : #3a86ff;
+}
+/* navigation  */
+nav{
+    padding: 1rem;
+    margin-bottom:1rem ;
+    background-color: #3a86ff;
+    color: white;
+}
+/* input  */
+.date-input{
+    padding: 2rem;
+    font-size: 22px;
+}
+/* button  */
+#check-button{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: none ;
+    color :white ;
+    background-color: var(--primary-color);
+    font-size: 20px;
+    margin-top:2rem;
+
+}
+/* footer  */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+    padding: 1.5rem 0rem ;
+}
+footer div h2{
+    padding-bottom: 0.6rem;
+}
+.footer-btn{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    background: white;
+    border-radius: 1rem;
+    margin: rem ;
+}
